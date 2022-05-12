@@ -7,7 +7,6 @@ import AddBlogScreen from "./screens/AddBlogScreen";
 import HomeScreen from "./screens/HomeScreen";
 import LoginScreen from "./screens/LoginScreen";
 import Service from "./screens/Service";
-import AdminHomePageScreen from "./screens/AdminHomePageScreen";
 import ContactUs from "./screens/ContactUs";
 import Footer from "./screens/Footer";
 import Posts from "./screens/Posts";
@@ -43,6 +42,7 @@ const Routing = () => {
                   </ProtectAdminRoute>
                }
             />
+
             <Route path="/contact" element={<ContactUs />} />
          </Routes>
          <Footer />
