@@ -12,7 +12,6 @@ const PostAdd = () => {
     useEffect(() => {
         if (isSubmit) {
             addPost();
-            console.log(post);
             reset();
         }
     }, [isSubmit])
