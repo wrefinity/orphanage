@@ -33,6 +33,6 @@ export const logoutUser = (navigate) => async (dispatch) => {
         navigate("/");
 
     } catch (error) {
-        console.log(error.message)
+        dispatch({ type: USER_ERROR, payload: 'Oop something happen' })
     }
 }

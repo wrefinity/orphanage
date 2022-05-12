@@ -73,7 +73,7 @@ const HomeScreen = () => {
                   style={{ height: 350 }}
                   alt={post.title}
                   width="400"
-                  height="300"
+                  height="500"
                 />
                 <p>
                   <strong>{post.title}</strong>
