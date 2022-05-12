@@ -43,8 +43,6 @@ const Routing = () => {
                   </ProtectAdminRoute>
                }
             />
-            {/* <Route path="/signup" element={<SignupScreen />} /> */}
-            <Route path="/admin-home" element={<AdminHomePageScreen />} />
             <Route path="/contact" element={<ContactUs />} />
          </Routes>
          <Footer />
