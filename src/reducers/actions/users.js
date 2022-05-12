@@ -8,7 +8,7 @@ export const loginUser = (credentials, navigate) => async (dispatch) => {
         console.log(credentials)
         if (credentials.email === process.env.REACT_APP_ADMIN_EMAIL && 
             credentials.password===process.env.REACT_APP_PASS){
-                const {email, ...other} = credentials
+                const {email} = credentials
                 const {REACT_APP_ADMIN} = process.env
                 const data = {email, isAdmin:REACT_APP_ADMIN}
                 dispatch({ type: LOGIN_USER, payload: data })

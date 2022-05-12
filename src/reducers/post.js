@@ -21,7 +21,7 @@ const postReducer = (state = initialState, {type, payload})=>{
             return { ...state, post: payload };
 
         case UPDATE_POST:
-            return { ...state, post: state.post.map((pst) => payload.id == pst.id ? payload : pst) };
+            return { ...state, post: state.post.map((pst) => payload.id === pst.id ? payload : pst) };
 
         default:
             return state;

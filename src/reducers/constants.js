@@ -1,4 +1,4 @@
-export default {
+const constants = {
     LOGIN_USER: "LOGIN_USER",
     USER_ERROR: "USER_ERROR",
     LOGOUT_USER: "LOGOUT_USER",
@@ -15,6 +15,7 @@ export default {
   
   
   };
+export default constants;
   
   
   

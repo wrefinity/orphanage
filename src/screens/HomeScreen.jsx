@@ -3,12 +3,6 @@ import Service from "./Service";
 import logo from "../images/logo.png";
 import Help from "./Help";
 import { Link } from "react-router-dom";
-// import one from "../images/home/one.JPG";
-// import two from "../images/home/two.jpg";
-// import three from "../images/home/three.jpeg";
-// import four from "../images/home/four.jpg";
-// import six from "../images/home/six.jpg";
-// import seven from "../images/home/seven.jpg";
 import PostService from "../Services/post";
 
 const HomeScreen = () => {
@@ -22,7 +16,6 @@ const HomeScreen = () => {
     getPost();
   }, []);
 
-  
 
   return (
     <Fragment>
@@ -107,11 +100,6 @@ const HomeScreen = () => {
 
       <Help />
 
-      <img
-        src="./images/map.jpg"
-        className="img-responsive"
-        style={{ width: "100%" }}
-      />
     </Fragment>
   );
 };
